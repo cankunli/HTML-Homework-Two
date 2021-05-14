@@ -1,0 +1,73 @@
+﻿body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#wrapper {
+    width: 600px;
+    height: 360px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+header h1 {
+    padding: 12px;
+    font-size: 1.3em;
+}
+
+fieldset {
+    margin-left: 7px;
+    border: 1px solid #E9F5FC;
+    border-radius: 5px;
+    height: 150px;
+    width: 125px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 0.9em;
+    padding-top: 9px;
+    padding-left: 5px;
+}
+
+    h2:after {
+        content: url("../image/1laptop.png");
+    }
+
+fieldset:nth-child(2) > h2:after {
+    content: url("../image/1laptop.png");
+}
+
+fieldset:nth-child(5) > h2:after {
+    content: url("../image/1laptop.png");
+}
+
+fieldset:last-child > h2:after {
+    content: url("../image/1laptop.png");
+}
+
+#main {
+    float: left;
+    width: 410px;
+    height: 308px;
+}
+
+.left {
+    font-size: 0.6em;
+}
+
+.right {
+    font-size: 0.6em;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+input[type="range"] {
+    margin-bottom: 10px;
+    width: 170px;
+}

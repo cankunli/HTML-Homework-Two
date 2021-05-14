@@ -1,0 +1,64 @@
+﻿.container {
+    margin: 40px auto;
+    display: flex;
+}
+
+.button-container form,
+.button-container form div {
+    display: inline;
+}
+
+.button-container button {
+    display: inline;
+    vertical-align: middle;
+}
+
+h1 {
+    color:mediumblue;
+}
+
+.top {
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    margin-block: 10px;
+}
+
+.wrap {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.right{
+    text-align:right;
+}
+
+.input-box{
+    width: 100%;
+}
+button {
+    color: white;
+    height: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    text-align:right;
+}
+
+.registerbtn{
+    background-color:cornflowerblue;
+    width: 48%;
+}
+
+.signbtn {
+    background-color: green;
+    width: 48%;
+}
+.smallregi {
+    background-color: cornflowerblue;
+    height: 10%;
+}
